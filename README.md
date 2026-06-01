@@ -108,4 +108,4 @@ data generation → model training → evaluation → web deployment.
 
 
 ## 🌐 Live Demo
-👉 **[Try it live here](https://YOUR_USERNAME-career-guidance-system-app-xxxx.streamlit.app)**
+👉 **[Try it live here](https://ashmita-nath-career-guidance-system-app-un1uib.streamlit.app/)**
