@@ -66,3 +66,46 @@ career-guidance-system/
 ├── requirements.txt
 └── README.md
 
+---
+
+## ⚙️ Setup & Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/career-guidance-system.git
+cd career-guidance-system
+
+# 2. Create virtual environment
+python3 -m venv venv
+source venv/bin/activate        # Mac/Linux
+venv\Scripts\activate           # Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Generate dataset
+python generate_data.py
+
+# 5. Train the model
+python train_model.py
+
+# 6. Launch the app
+streamlit run app.py
+```
+
+---
+
+## 📊 Screenshots
+
+> Skill Assessment → Career Prediction → Personalized Roadmap
+
+---
+
+## 👨‍💻 Author
+
+Built as a portfolio project demonstrating end-to-end ML development:
+data generation → model training → evaluation → web deployment.
+
+
+## 🌐 Live Demo
+👉 **[Try it live here](https://YOUR_USERNAME-career-guidance-system-app-xxxx.streamlit.app)**
