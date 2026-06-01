@@ -1,14 +1,15 @@
 # 🚀 AI-Driven Career Guidance & Roadmap System
 
-A machine learning web application that predicts the optimal tech career track
-based on a user's skill profile and generates a personalized learning roadmap.
+> Predict your ideal tech career path using Machine Learning + get a personalized roadmap + live job listings
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![Accuracy](https://img.shields.io/badge/Accuracy-90%25+-green)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Accuracy](https://img.shields.io/badge/Accuracy-90%25+-brightgreen?style=for-the-badge)
+![Careers](https://img.shields.io/badge/Career_Tracks-11-764ba2?style=for-the-badge)
 
----
+## 🌐 Live Demo
+👉 **[Try it live here](https://ashmita-nath-career-guidance-system-app-un1uib.streamlit.app/)**
 
 ## 🎯 Features
 
@@ -72,7 +73,7 @@ career-guidance-system/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/career-guidance-system.git
+git clone https://github.com/Ashmita-Nath/career-guidance-system.git
 cd career-guidance-system
 
 # 2. Create virtual environment
@@ -97,8 +98,31 @@ streamlit run app.py
 
 ## 📊 Screenshots
 
-> Skill Assessment → Career Prediction → Personalized Roadmap
+## 📸 Screenshots
 
+### 🎯 Skill Assessment
+![Skill Assessment](screenshots/ss1.png)
+
+### 🎉 Career Prediction Results
+![Career Prediction](screenshots/ss2.png)
+
+### 📄 Resume Scorer
+![Personalized roadmap](screenshots/ss3.png)
+
+### 📊 Model Insights
+![Job losting](screenshots/ss4.png)
+
+### 🎉 Career Prediction Results
+![Resume Scorer](screenshots/ss5.png)
+
+### 📄 Resume Scorer
+![skills](screenshots/ss6.png)
+
+### 📊 Model Insights
+![gap analysis](screenshots/ss7.png)
+
+### 📊 Model Insights
+![Model insights](screenshots/ss7.png)
 ---
 
 ## 👨‍💻 Author
@@ -107,5 +131,3 @@ Built as a portfolio project demonstrating end-to-end ML development:
 data generation → model training → evaluation → web deployment.
 
 
-## 🌐 Live Demo
-👉 **[Try it live here](https://ashmita-nath-career-guidance-system-app-un1uib.streamlit.app/)**
