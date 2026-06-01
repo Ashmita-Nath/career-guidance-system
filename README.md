@@ -122,7 +122,7 @@ streamlit run app.py
 ![gap analysis](screenshots/ss7.png)
 
 ### 📊 Model Insights
-![Model insights](screenshots/ss7.png)
+![model insights](screenshots/ss8.png)
 ---
 
 ## 👨‍💻 Author
