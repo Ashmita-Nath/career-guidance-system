@@ -64,6 +64,28 @@ CAREER_PROFILES = {
         "medium": ["python", "javascript", "data_analysis", "cloud"],
         "low": ["machine_learning", "statistics", "react", "nodejs", "docker",
                 "kubernetes", "networking", "linux", "swift", "kotlin", "deep_learning"]
+    },
+    # ── 3 New Career Tracks ──────────────────────────────────────────────────
+    "UI/UX Designer": {
+        "high": ["uiux_design", "javascript", "react", "communication", "git"],
+        "medium": ["nodejs", "python", "project_management", "sql"],
+        "low": ["machine_learning", "statistics", "docker", "kubernetes",
+                "networking", "linux", "swift", "kotlin", "cloud",
+                "data_analysis", "deep_learning"]
+    },
+    "Data Engineer": {
+        "high": ["python", "sql", "cloud", "data_analysis", "git"],
+        "medium": ["docker", "kubernetes", "linux", "statistics", "communication"],
+        "low": ["machine_learning", "deep_learning", "react", "nodejs",
+                "swift", "kotlin", "uiux_design", "project_management",
+                "javascript", "networking"]
+    },
+    "Blockchain Developer": {
+        "high": ["python", "javascript", "networking", "git", "linux"],
+        "medium": ["nodejs", "sql", "cloud", "docker", "communication"],
+        "low": ["machine_learning", "statistics", "react", "kubernetes",
+                "swift", "kotlin", "data_analysis", "deep_learning",
+                "project_management", "uiux_design"]
     }
 }
 
@@ -74,11 +96,11 @@ def generate_sample(career, n=250):
         row = {}
         for skill in SKILLS:
             if skill in profile["high"]:
-                row[skill] = np.random.randint(6, 11)      # 6-10
+                row[skill] = np.random.randint(6, 11)
             elif skill in profile["medium"]:
-                row[skill] = np.random.randint(3, 8)       # 3-7
+                row[skill] = np.random.randint(3, 8)
             else:
-                row[skill] = np.random.randint(0, 5)       # 0-4
+                row[skill] = np.random.randint(0, 5)
         row["career_track"] = career
         rows.append(row)
     return rows
@@ -88,7 +110,7 @@ for career in CAREER_PROFILES:
     all_rows.extend(generate_sample(career, n=250))
 
 df = pd.DataFrame(all_rows)
-df = df.sample(frac=1, random_state=42).reset_index(drop=True)  # shuffle
+df = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
 os.makedirs("data", exist_ok=True)
 df.to_csv("data/career_dataset.csv", index=False)
